@@ -21,12 +21,16 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 2rem;
+      padding: 0.5rem 2rem;
       position: relative;
       z-index: 1000;
     }
 
-    .Navlogo { width: 170px; }
+    .Navlogo { width: 190px; }
+
+    /*.Navlogo:hover {
+        transform: scale(1.05);
+    }*/
 
     .nav-links {
       list-style: none;
@@ -87,32 +91,6 @@
 
     /*End of nav*/
 
-.capitalDlogo{
-    position: absolute;
-    top: 52px;
-    right: 31px;
-    width: 112px;
-    height: 112px;
-}
-
-.capitalDlogo:hover{
-    width: 224px;
-    height: 224px;
-}
-
-.dinukaLogo{
-    position: absolute;
-    top: 73px;
-    left: 20px;
-    width: 85px;
-    height: 85px;
-}
-
-.dinukaLogo:hover{
-    width: 170px;
-    height: 170px;
-}
-
 .Details{
     text-align: center;
     justify-content: center;
@@ -122,27 +100,3 @@
     color: #FFFFFF;
 }
 
-.hello{
-    font-size: 60px;
-}
-
-.hello:hover{
-    color: #e00b0b;
-}
-
-.DetailsH:hover{
-    color: #adf30b;
-}
-
-.DinukaPhoto:hover{
-    height: 550px;
-    width: 550px;
-}
-
-.caption{
-    font-size: 22px;
-    color: white;
-    opacity: 35%;
-    padding: 1rem 12%;  
-    gap: 0;
-}
